@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+	padding: 0;
+	font-size: 62.5%;
+}
+
+#header {
+	background-color: #5FC0CD;
+	height: 3.5rem;
+	width: 100%;
+	color: #FFF;
+	position:fixed;
+	z-index: 1px;
+}
+
+#header a {
+	padding-left: 1rem;
+	font-size: 2.3rem;
+	line-height: 3rem;
+	color: #FFF;
+}
+
+#header a:link,
+#header a:visited {
+	border-bottom: none;
+	text-decoration:none;
+}
+
+#header h2 {
+	display: block;
+	position: absolute;
+	left: 45%;
+	top: 0;
+	width: 6rem;
+	margin-left: -3rem; 
+    height: 1rem;
+    background-color: #5FC0CD;
+    word-break: break-word;
+    text-align:center;
+    padding: 1rem 1rem 0;
+	font-weight: 800;
+	font-size: 1.6rem;	
+}
+
+.top {
+	padding-top: 3.5rem;
+}
+
+.topInfo {
+	position: absolute;
+	top: 8rem;
+	left: 2rem;
+}
+
+.topInfo h3 {
+	position: absolute;
+	top: 1.8rem;
+	left: 9rem;
+	display: block;
+	height: 1rem;
+	width: 8rem;
+	color: #FFF;
+	font-size: 1.3rem;
+}
+
+.location {
+	position: absolute;
+	top: 3.5rem;
+	left: 9rem;	
+}
+
+.topInfo p {
+	position: absolute;
+	top: 3.5rem;
+	left: 11rem;
+	display: block;
+	height: 1rem;
+	width: 10rem;
+	color: #FFF;
+	font-size: 1.1rem;
+}
+
+#labelName {
+	height: 1.5rem;
+	padding: 1rem 2rem;
+	border-bottom: 1px solid #E1E5E7;
+}
+
+#labelName img {
+	position: absolute;
+	top: 21.5rem;
+	left: .5rem;
+	display: block;
+}
+
+#keyPoint {
+	height: 1.5rem;
+	padding: 1rem;
+	border-bottom: 1px solid #E1E5E7;
+}
+
+#column {
+	height: 1.5rem;
+	padding: 1rem 0 1rem 1.5rem;
+	border-bottom: 1px solid #E1E5E7;
+}
+
+#column span {
+	color: #808080;
+}
+
+#self {
+	border-bottom: 1px solid #E1E5E7;
+	position: relative;
+	margin-bottom: 3rem;
+}
+
+#selfIntroduction {
+	float: left;
+    width: 4rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 20%;
+    margin-left:-1rem; 
+}
+
+#selfIntroduction span {
+	color: #808080;
+}
+
+#Introduction {
+	padding-top: .5rem;
+	padding-left: 1rem;
+	margin: 1rem 2rem 1rem 6.5rem;
+	border-left: 1px solid #808080;
+}
+
+#footer {
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF;
+}
+
+#footer .left {
+    float: left;
+    margin: .5rem 0 0 4%;
+    padding:0.5rem 0;
+    border: solid 1px #5FC0CD;
+    border-radius: 10px;
+    width: 45%;
+    background-color: white;
+}
+
+#footer .right {
+    float: right;
+    margin: .5rem 4% 0 0;
+    padding:0.5rem 0;
+    border: solid 1px #5FC0CD;
+    background-color: #5FC0CD;
+    border-radius: 10px;
+    width: 45%;
+}
+#footer p {text-align: center;}
+
+#footer .left p {
+    color: #5FC0CD;
+}
+
+#footer .right p {
+    color: #FFF;
+}
